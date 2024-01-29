@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  width: 100%;
+  max-width: 740px;
+
+  @include onTablet {
+    max-width: 1070px;
+  }
+}
