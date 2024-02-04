@@ -1,0 +1,11 @@
+.top-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 28px;
+
+  &--mrgn-btm {
+    margin-bottom: 48px;
+  }
+}

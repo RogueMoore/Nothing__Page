@@ -1,0 +1,30 @@
+.icon {
+  width: 24px;
+  height: 24px;
+
+  @include onTablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  &-phone {
+    background-image: url(../images/svg/icon-phone.svg);
+  }
+
+  &-burger {
+    background-image: url(../images/svg/icon-burger.svg);
+
+    &:hover {
+      background-image: url(../images/svg/icon-burger--hover.svg);
+    }
+  }
+
+  &-cross {
+    background-image: url(../images/svg/icon-cross.svg);
+  }
+
+  &-container {
+    display: flex;
+    gap: 24px;
+  }
+}
