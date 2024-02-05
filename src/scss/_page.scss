@@ -8,4 +8,12 @@
     font-weight: 400;
     color: $main-black-color;
   }
+
+  &__section {
+    padding: 0 0 96px 0;
+
+    @include onTablet {
+      padding: 0 0 120px 0;
+    }
+  }
 }

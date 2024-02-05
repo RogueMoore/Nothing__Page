@@ -1079,6 +1079,14 @@ p {
   font-weight: 400;
   color: #292929;
 }
+.page__section {
+  padding: 0 0 96px 0;
+}
+@media (min-width: 744px) {
+  .page__section {
+    padding: 0 0 120px 0;
+  }
+}
 
 .container {
   margin: 0 auto;
