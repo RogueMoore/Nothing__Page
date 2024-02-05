@@ -1128,6 +1128,12 @@ p {
   background-image: url(../images/header.png);
   background-position: center;
   background-size: cover;
+  margin: 0 0 64px 0;
+}
+@media (min-width: 744px) {
+  .header {
+    margin: 0 0 120px 0;
+  }
 }
 .header__logo {
   position: absolute;
@@ -1230,4 +1236,114 @@ p {
 }
 .top-actions--mrgn-btm {
   margin-bottom: 48px;
+}
+
+.section__title {
+  margin: 0 0 48px 0;
+}
+@media (min-width: 744px) {
+  .section__title {
+    margin: 0 0 56px 0;
+  }
+}
+.section__title-container {
+  width: 280px;
+  margin: 0 auto;
+}
+@media (min-width: 744px) {
+  .section__title-container {
+    width: 600px;
+  }
+}
+@media (min-width: 1260px) {
+  .section__title-container {
+    width: 1020px;
+  }
+}
+
+.products__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+@media (min-width: 744px) {
+  .products__content {
+    gap: 56px;
+  }
+}
+@media (min-width: 1260px) {
+  .products__content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+.products__title {
+  width: 280px;
+}
+@media (min-width: 744px) {
+  .products__title {
+    width: 600px;
+  }
+}
+.products__list {
+  width: 280px;
+}
+@media (min-width: 744px) {
+  .products__list {
+    width: 600px;
+  }
+}
+@media (min-width: 1260px) {
+  .products__list {
+    width: 324px;
+  }
+}
+.products__image {
+  margin: 0 0 24px 0;
+  width: 280px;
+}
+@media (min-width: 744px) {
+  .products__image {
+    width: 600px;
+  }
+}
+@media (min-width: 1260px) {
+  .products__image {
+    width: 324px;
+  }
+}
+.products__name {
+  margin: 0 0 8px 0;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.products__description {
+  margin: 0 0 12px 0;
+  font-family: Space Mono;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+.products__price {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
 }/*# sourceMappingURL=main.css.map */
