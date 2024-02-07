@@ -1,0 +1,63 @@
+.input {
+  width: 100%;
+
+  @include onTablet {
+    width: 600px;
+  }
+
+  @include onDesktop {
+    width: 411px;
+  }
+
+  &__field {
+    font-family: inherit;
+    padding: 14px 16px 14px 16px;
+
+    height: 48px;
+    width: 100%;
+
+    background-color: #f8f8fa;
+    border: none;
+    border-radius: 8px;
+    outline: 1px solid #f8f8fa;
+
+    margin-bottom: 16px;
+
+    transition: all 0.3s;
+
+    &:hover,
+    &:focus {
+      outline: 1px solid #d5d7de;
+    }
+
+    &::placeholder {
+      font-family: Space Mono;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+    }
+
+    &:hover::placeholder,
+    &:focus::placeholder {
+      color: #292929;
+    }
+
+    @include onTablet {
+      max-width: 600px;
+    }
+
+    @include onDesktop {
+      max-width: 411px;
+    }
+  }
+
+  &__textarea {
+    font-family: inherit;
+    height: 148px;
+
+    resize: none;
+
+    margin-bottom: 32px;
+  }
+}
