@@ -1427,4 +1427,64 @@ p {
   .button-primary {
     width: 324px;
   }
+}
+
+.image-banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin: 0 0 48px 0;
+}
+@media (min-width: 744px) {
+  .image-banner {
+    margin: 0 0 56px 0;
+    height: 400px;
+  }
+}
+@media (min-width: 1260px) {
+  .image-banner {
+    height: 460px;
+  }
+}
+
+.about-us__content {
+  display: block;
+}
+@media (min-width: 744px) {
+  .about-us__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 96px;
+  }
+}
+@media (min-width: 1260px) {
+  .about-us__content {
+    gap: 120px;
+  }
+}
+.about-us__title {
+  margin-bottom: 24px;
+  width: 100%;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+}
+@media (min-width: 744px) {
+  .about-us__title {
+    margin-bottom: 0;
+  }
+}
+.about-us__text {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  margin-bottom: 16px;
+}
+.about-us__text:last-of-type {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
