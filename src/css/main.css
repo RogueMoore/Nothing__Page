@@ -1080,6 +1080,9 @@ p {
   font-weight: 400;
   color: #292929;
 }
+.page__body--with-menu {
+  overflow: hidden;
+}
 .page__section {
   padding: 0 0 96px 0;
 }
